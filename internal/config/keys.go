@@ -18,6 +18,7 @@ type (
 		MessagesList MessagesListKeys `toml:"messages_list"`
 		MessageInput MessageInputKeys `toml:"message_input"`
 		MentionsList MentionsListKeys `toml:"mentions_list"`
+		FilterChannels string `toml:"filter_channels"`
 
 		Logout string `toml:"logout"`
 		Quit   string `toml:"quit"`

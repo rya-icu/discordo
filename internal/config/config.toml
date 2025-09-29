@@ -43,6 +43,7 @@ quit = "Ctrl+C"
 # Log out and remove the authentication token from keyring.
 # Requires re-login upon restart.
 logout = "Ctrl+D"
+filter_channels = "Ctrl+F"
 
 # Only while focusing on the guilds tree
 [keys.guilds_tree]
